@@ -18,7 +18,7 @@ export default function Home() {
           const modifiedName = entry["First Name"]
             ? entry["First Name"].charAt(0).toUpperCase() +
               entry["First Name"].slice(1).toLowerCase()
-            : "";
+            : " ";
 
           return `${prefixedNumber},${modifiedName}`;
         }
